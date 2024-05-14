@@ -20,7 +20,7 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-@-ms-viewport {
+@viewport {
   width: device-width;
 }
 
