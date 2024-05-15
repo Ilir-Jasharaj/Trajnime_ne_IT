@@ -1,7 +1,7 @@
 <?php
 
 // connect with database
-$conn = new PDO("mysql:host=localhost:3307;dbname=sms_db", "root", "");
+$conn = new PDO("mysql:host=localhost:3306;dbname=sms_db", "root", "");
 
 // fetch all FAQs from database
 $sql = "SELECT * FROM faqs";

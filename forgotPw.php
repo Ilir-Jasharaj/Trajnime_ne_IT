@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 		$apiUrl = 'https://api.elasticemail.com/v2/email/send';
 		$apiKey = '8EC99B83A7ACB1D1E568C49BEC213FA207AFB54F3D6C44F4274415B111BC725067FCC77259B9A01CEB742ECAADAB0F00';
-		$fromEmail = 'zariqiardi@gmail.com';
+		$fromEmail = 'ilirjasharajj@gmail.com';
 		$subject = 'Password Reset Code';
 		$message = 'Your password reset code is: ' . $verificationCode;
 
@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Forgot Password - Besa iTech</title>
+	<title>Forgot Password - Smart School</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" href="Logo 1_a v5.png">
@@ -83,7 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 			</form>
 			<br /><br />
 			<div class="text-center text-light">
-				<p>&copy; 2023 Besa iTech. All rights reserved.</p>
+				<p>&copy; 2024 Smart School. All rights reserved.</p>
 			</div>
 		</div>
 	</div>
@@ -95,7 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <?php
 function checkEmailExists($email)
 {
-	$servername = "localhost: 3307";
+	$servername = "localhost: 3306";
 	$username = "root";
 	$password = "";
 	$dbname = "sms_db";
@@ -135,7 +135,7 @@ function generateVerificationCode($length = 6)
 
 function saveVerificationCode($email, $verificationCode)
 {
-	$servername = "localhost: 3307";
+	$servername = "localhost: 3306";
 	$username = "root";
 	$password = "";
 	$dbname = "sms_db";

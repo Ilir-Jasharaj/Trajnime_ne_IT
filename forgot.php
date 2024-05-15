@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $apiUrl = 'https://api.elasticemail.com/v2/email/send';
         $apiKey = '8EC99B83A7ACB1D1E568C49BEC213FA207AFB54F3D6C44F4274415B111BC725067FCC77259B9A01CEB742ECAADAB0F00';
-        $fromEmail = 'zariqiardi@gmail.com';
+        $fromEmail = 'ilirjasharajj@gmail.com';
         $subject = 'Password Reset Code';
         $message = 'Your password reset code is: ' . $verificationCode;
 
@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 function checkEmailExists($email)
 {
-    $servername = "localhost: 3307";
+    $servername = "localhost: 3306";
     $username = "root";
     $password = "";
     $dbname = "sms_db";
@@ -96,7 +96,7 @@ function generateVerificationCode($length = 6)
 
 function saveVerificationCode($email, $verificationCode)
 {
-    $servername = "localhost: 3307";
+    $servername = "localhost: 3306";
     $username = "root";
     $password = "";
     $dbname = "sms_db";

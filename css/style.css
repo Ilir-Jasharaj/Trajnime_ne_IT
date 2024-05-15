@@ -65,9 +65,11 @@ textarea {
 .login {
 	max-width: 500px;
 	width: 90%;
-	background: rgba(255,255,255, 0.5);
-	padding: 10px;
+	background: rgba(145, 142, 142, 0.5);
+	padding: 40px;
+	margin-top: 30px;
 	border-radius: 10px;
+	color: white;
 }
 .login h3{
 	text-align: center;

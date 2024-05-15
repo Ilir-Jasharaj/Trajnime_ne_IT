@@ -1,7 +1,7 @@
 <?php
 
 // connect with the database
-$conn = new PDO("mysql:host=localhost;port=3307;dbname=sms_db", "root", "");
+$conn = new PDO("mysql:host=localhost;port=3306;dbname=sms_db", "root", "");
 
 // check if FAQ ID is provided
 if (isset($_GET["id"])) {

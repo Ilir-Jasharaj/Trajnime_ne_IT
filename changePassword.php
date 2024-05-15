@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Besa iTech</title>
+    <title>Login - Smart School</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="Logo 1_a v5.png">
@@ -55,7 +55,7 @@
                     echo "<div class='alert alert-danger' role='alert'>New password and confirm password do not match.</div>";
                 } else {
 
-                    $servername = "localhost:3307";
+                    $servername = "localhost:3306";
                     $username = "root";
                     $password = "";
                     $dbname = "sms_db";
@@ -91,7 +91,7 @@
 
             <br /><br />
             <div class="text-center text-light">
-                <p>&copy; 2023 Besa iTech. All rights reserved.</p>
+                <p>&copy; 2024 Smart School. All rights reserved.</p>
             </div>
         </div>
     </div>

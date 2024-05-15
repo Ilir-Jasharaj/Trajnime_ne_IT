@@ -1,6 +1,6 @@
 <?php  
 
-$sName = "localhost: 3000";
+$sName = "localhost: 3306";
 $uName = "root";
 $pass  = "";
 $db_name = "sms_db";
