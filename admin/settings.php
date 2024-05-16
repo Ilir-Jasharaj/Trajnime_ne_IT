@@ -80,11 +80,11 @@ if (
           <?php } ?>
           <div class="mb-3">
             <label class="form-label">School Name</label>
-            <input type="text" class="form-control" value="<?= $setting['school_name'] ?>" name="school_name">
+            <input type="text" class="form-control" value="Smart School" name="school_name" >
           </div>
           <div class="mb-3">
             <label class="form-label">Slogan</label>
-            <input type="text" class="form-control" value="<?= $setting['slogan'] ?>" name="slogan">
+            <input type="text" class="form-control" value="Empowering Minds, Building Futures: Welcome to Smart School!" name="slogan">
           </div>
           <div class="mb-3">
             <label class="form-label">About</label>

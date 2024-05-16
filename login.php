@@ -67,7 +67,7 @@
 			<br /><br />
 			<div class="text-center text-light">
 				<?php
-				//$pass = 12345;
+				//$pass = *****;
 				 //$pass = password_hash($pass, PASSWORD_DEFAULT);
 				 //echo $pass;
 				?>

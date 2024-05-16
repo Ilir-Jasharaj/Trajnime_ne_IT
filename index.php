@@ -12,7 +12,7 @@ if ($setting != 0) {
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Welcome to <?= $setting['school_name'] ?></title>
+		<title>Welcome to Smart School</title>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="icon" href="Logo 1_a v5.png">
@@ -51,8 +51,7 @@ if ($setting != 0) {
 				</nav>
 				<section class="welcome-text d-flex justify-content-center align-items-center flex-column">
 					<img src="Logo 1_a v5.png" style="width: 300px;">
-					<h4>Welcome to <?= $setting['school_name'] ?></h4>
-					<p><?= $setting['slogan'] ?></p>
+					<h4>Welcome to Smart School</h4>
 				</section>
 				<section id="about" class="d-flex justify-content-center align-items-center flex-column">
 					<div class="card mb-3 card-1">
@@ -64,7 +63,7 @@ if ($setting != 0) {
 								<div class="card-body">
 									<h5 class="card-title">About Us</h5>
 									<p class="card-text"><?= $setting['about'] ?></p>
-									<p class="card-text"><small class="text-muted">B.I.T</small></p>
+									<p class="card-text"><small class="text-muted">Smart School</small></p>
 								</div>
 							</div>
 						</div>
@@ -100,7 +99,7 @@ if ($setting != 0) {
 					</form>
 				</section>
 				<div class="text-center text-light">
-					Copyright &copy; <?= $setting['current_year'] ?> <?= $setting['school_name'] ?>. All rights reserved.
+					Copyright &copy; <?= $setting['current_year'] ?> Smart School. All rights reserved.
 
 				</div>
 				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
